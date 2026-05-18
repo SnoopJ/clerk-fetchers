@@ -79,7 +79,6 @@ chrome.action.onClicked.addListener(async (tab) => {
         await chrome.action.openPopup();
         }  
       //else if (there's an Archive link): ask the user to click it and run this again
-      //actual else: Assume custom scraper; for now I'm using the placeholder because I don't want to fill the issue tracker with junk data
         else {
           await chrome.action.setPopup({ tabId: tab.id, popup: "hello.html" });
           await chrome.action.openPopup();
