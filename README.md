@@ -1,10 +1,12 @@
 # Clerk-Fetchers
 
-This repository lets the community contribute additional fetchers for municipal government meeting minutes and agendas to extend [Clerk](https://github.com/civic-band/clerk). Check out the [Contributor Guide](CONTRIBUTING.md) and included example to get started! 
+This repository lets the community contribute additional fetchers for municipal government meeting minutes and agendas to extend [Clerk]. Check out the [Contributor Guide](CONTRIBUTING.md) and included example to get started! 
+
+[Clerk]: https://github.com/civicband/clerk
 
 ## Description
 
-A community-contributed repository that extends [Clerk](https://github.com/civic-band/clerk) with fetchers for non-standard municipal government meeting minutes and agendas. Each fetcher targets a specific municipality, scraping meeting listings and downloading associated PDFs. 
+A community-contributed repository that extends [Clerk] with fetchers for non-standard municipal government meeting minutes and agendas. Each fetcher targets a specific municipality, scraping meeting listings and downloading associated PDFs. 
 
 Anyone can add new fetchers following the included example and [Contributor Guide](CONTRIBUTING.md).
 
@@ -16,7 +18,7 @@ These fetchers, if accepted, will feed PDFs into CivicBand's pipeline. Data will
 
 * Python 3.12+
 * UV package manager
-* [clerk](https://github.com/civic-band/clerk) >= 0.0.1
+* [clerk] >= 0.0.1
 * Dev dependencies: `pytest>=7.4.0`, `respx>=0.23.0`, `hatchling` build system
 
 ### Developer Setup
