@@ -11,10 +11,10 @@ Completed:
 - Make sure both sets of text tell users to check for their municipality before requesting
 - Write fallback case where users whose site doesn't match anything can request it
 - Find indicators for most supported backends
-
-Outstanding:
 - Find indicators for the last few supported backends
 - Test all the other ones that should work so far
+
+Outstanding:
 - [Repeat until all covered scrapers are addressed] Write detection for supported backend that shows users text about how to request if it's a match
 
 Stretch: 
