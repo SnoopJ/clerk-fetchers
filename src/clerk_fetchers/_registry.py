@@ -3,13 +3,16 @@ from clerk_fetchers.fetchers.example_city import ExampleCityFetcher
 from clerk_fetchers.fetchers.berkeley_ca import BerkeleyCAFetcher
 from clerk_fetchers.fetchers.houston_tx import HoustonTXFetcher
 from clerk_fetchers.fetchers.senado_pr import SenadoPRFetcher
+from clerk_fetchers.fetchers.sanfrancisco_ca import SanFranciscoCAFetcher
 
 
 FETCHER_REGISTRY = {
     "example_city": ExampleCityFetcher,
+    # Lines should be alphabetical by subdomain from this point
     "alamedausd.ca": AlamedaUSDFetcher,
     "berkeley.ca": BerkeleyCAFetcher,
     "houston.tx": HoustonTXFetcher,
+    "sanfrancisco.ca": SanFranciscoCAFetcher,
     "senado.pr": SenadoPRFetcher,
 }
 
