@@ -2,8 +2,6 @@
 
 This repository lets the community contribute additional fetchers for municipal government meeting minutes and agendas to extend [Clerk]. Check out the [Contributor Guide](CONTRIBUTING.md) and included example to get started! 
 
-[Clerk]: https://github.com/civicband/clerk
-
 ## Description
 
 A community-contributed repository that extends [Clerk] with fetchers for non-standard municipal government meeting minutes and agendas. Each fetcher targets a specific municipality, scraping meeting listings and downloading associated PDFs. 
@@ -42,3 +40,5 @@ Open a [GitHub issue](../../issues) to report bugs or request help with a fetche
 ## License
 
 This project is licensed under the BSD 3-Clause License - see the [LICENSE](LICENSE) file for details.
+
+[Clerk]: https://github.com/civicband/clerk
