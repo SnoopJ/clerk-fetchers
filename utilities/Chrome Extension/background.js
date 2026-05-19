@@ -83,7 +83,7 @@ browser.action.onClicked.addListener(async (tab) => {
           await browser.action.setPopup({ tabId: tab.id, popup: "municode.html" });
           await browser.action.openPopup();
         } 
-        else if (pagetext.includes(">Archive</a>")){ //This should catch when they're not on the right page yet
+        else if (pagetext.includes("Archive</a>")){ //This should catch when they're not on the right page yet
           await browser.action.setPopup({ tabId: tab.id, popup: "archive-present.html" });
           await browser.action.openPopup();
         }
