@@ -77,9 +77,12 @@ browser.action.onClicked.addListener(async (tab) => {
         }  
       else {
         const pagetext =  await (await fetch(currentTabURL)).text();
-        //if (source includes "Aha change 20170911"): municode 
+        if (pagetext.includes("Aha change 20170911")){ 
           // Comment originating from a dependency but their code uses such clear language 
           // that nothing else feels specific to them
+          await browser.action.setPopup({ tabId: tab.id, popup: "municode.html" });
+          await browser.action.openPopup();
+        } 
         
         //else if (there's an Archive link): ask the user to click it and run this again
         //  else {
