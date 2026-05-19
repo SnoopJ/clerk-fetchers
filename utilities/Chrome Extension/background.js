@@ -88,7 +88,7 @@ browser.action.onClicked.addListener(async (tab) => {
           await browser.action.openPopup();
         }
         else {
-            await browser.action.setPopup({ tabId: tab.id, popup: "hello.html" });
+            await browser.action.setPopup({ tabId: tab.id, popup: "customscraper.html" });
             await browser.action.openPopup();
           }
       }}
