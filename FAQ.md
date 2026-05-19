@@ -12,7 +12,7 @@ We have a WIP-draft Chrome extension experiment that should be able to help you 
 
 # Why would I need a custom scraper?
 
-You would need a custom scraper to get information off of a page that doesn't use a [supported backend](CONTRIBUTING.md#Existing-backends). Right now, anything that doesn't use an already-supported backend says to use a custom scraper. If we end up with two or more cities using the same backend that we don't support yet, though, we can add a new reusable scraper for them. Please let us know if you see this, and we'll keep an eye out as well.
+If a page doesn't use a [supported backend](CONTRIBUTING.md#Existing-backends), we'll need to use a custom scraper. If we end up with two or more cities using the same backend that we don't support yet, though, we can add a new reusable scraper for them. Please let us know if you see this, and we'll keep an eye out as well.
 
 # What if my municipality hosts minutes/agendas in multiple places?
 

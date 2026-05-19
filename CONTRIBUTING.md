@@ -26,7 +26,7 @@ currently supported backends are:
 
 When triaging a municipal site as a source of documents, if you discover that
 the site uses one of these services, the good news is that a new `Fetcher` is not
-required! Note the URL and which service it is on the issue.
+required! Note the URL and which service the site uses on the issue.
 
 ## Adding a fetcher to clerk-fetchers
 
