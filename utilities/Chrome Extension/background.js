@@ -83,7 +83,10 @@ browser.action.onClicked.addListener(async (tab) => {
           await browser.action.setPopup({ tabId: tab.id, popup: "municode.html" });
           await browser.action.openPopup();
         } 
-        //else if (there's an Archive link): ask the user to click it and run this again
+        else if (/*there's an Archive link*/ 1=1 ){ 
+          await browser.action.setPopup({ tabId: tab.id, popup: "archive-present.html" });
+          await browser.action.openPopup();
+        }
         else {
             await browser.action.setPopup({ tabId: tab.id, popup: "hello.html" });
             await browser.action.openPopup();
