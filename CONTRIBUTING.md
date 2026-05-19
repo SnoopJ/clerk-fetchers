@@ -5,6 +5,29 @@ There are two ways to contribute fetchers to the clerk ecosystem:
 1. **Add a fetcher to this package** (recommended for most contributors)
 2. **Publish your own independent fetcher package**
 
+## Existing backends
+
+The `clerk` ecosystem is already capable of handling a variety of known
+backends, although the code responsible for this is not visible here. The
+currently supported backends are:
+
+- AgendaCenter
+- BoardDocs
+- CivicClerk
+- EBoard
+- Escribe
+- Granicus
+- IQM2
+- Laserfiche
+- Legistar
+- Municode
+- OnBase
+- PrimeGov
+
+When triaging a municipal site as a source of documents, if you discover that
+the site uses one of these services, the good news is that a new `Fetcher` is not
+required! Note the URL and which service the site uses on the issue.
+
 ## Adding a fetcher to clerk-fetchers
 
 ### 1. Fork and branch
