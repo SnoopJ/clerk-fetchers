@@ -76,14 +76,15 @@ browser.action.onClicked.addListener(async (tab) => {
         await browser.action.openPopup();
         }  
       else {
-      //else if (source includes "Aha change 20170911"): municode 
-        // Comment originating from a dependency but their code uses such clear language 
-        // that nothing else feels specific to them
-      
-      //else if (there's an Archive link): ask the user to click it and run this again
-      //  else {
-          await browser.action.setPopup({ tabId: tab.id, popup: "hello.html" });
-          await browser.action.openPopup();
-      //  }
+        const pagetext =  await (await fetch(currentTabURL)).text();
+        //if (source includes "Aha change 20170911"): municode 
+          // Comment originating from a dependency but their code uses such clear language 
+          // that nothing else feels specific to them
+        
+        //else if (there's an Archive link): ask the user to click it and run this again
+        //  else {
+            await browser.action.setPopup({ tabId: tab.id, popup: "hello.html" });
+            await browser.action.openPopup();
+        //  }
       }}
 })
