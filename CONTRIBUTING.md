@@ -15,8 +15,10 @@ currently supported backends are:
 - BoardDocs
 - CivicClerk
 - EBoard
+- Escribe
 - Granicus
 - IQM2
+- Laserfiche
 - Legistar
 - Municode
 - OnBase
